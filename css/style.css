@@ -1,0 +1,282 @@
+/*--header----------------------------------------*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.inner {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 15px;
+	background-color: #fff;
+}
+
+.header-left {
+	float: left;
+	text-align: center;
+}
+
+.header-right {
+	float: right;
+	text-align: center;
+}
+
+.bolt-gray {
+	color: #4e4e4e;
+}
+
+.contact-btn {
+	font-size: 12px;
+	padding: 14px 12px;
+	color: #fff;
+	background-color: #74cfae;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.contact-btn:hover {
+	color: #333;
+}
+/*----theme-wrapper -------------------------------------------*/
+
+.theme-wrapper {
+	background-color: #f2f2f2;
+	padding: 250px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.theme-wrapper h1 {
+	font-size: 90px;
+	font-weight: 700;
+	color: #74cfae;
+	margin-bottom: 20px;
+}
+
+.theme-wrapper p {
+	font-size: 30px;
+	color: #c0c0c0;
+}
+
+/*----- iphone ---------------------------------------------*/
+
+.intro-wrapper {
+	background-color: #74cfae;
+	padding-top: 50px;
+	width: 100%;
+}
+
+.intro-container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.iphone-wrapper {
+	width: 200px;
+}
+
+.text-wrapper {
+	text-align: center;
+	width: 700px;
+
+}
+
+.text-wrapper h4 {
+	color: #fff;
+	font-size: 24px;
+}
+
+.text-wrapper p {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 35px;
+	line-height: 27px;
+}
+
+/*--- main-contents -----------------------------------------*/
+
+.main-contents {
+	width: 100%;
+	background-color: #f2f2f2;
+	padding: 60px 0 70px 0;
+	text-align: center;
+}
+
+.contents-title {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.contents-images {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contents-img {
+	margin-left: 100px;
+	margin-bottom: 80px;
+	opacity: 0.7;
+	transition: all 0.3s ease;
+}
+
+.contents-img:hover {
+	opacity: 1;
+}
+
+.contents-img:first-child {
+	margin-left: 0;
+}
+
+.contents-img:nth-child(4) {
+	margin-left: 0;
+}
+
+.contents-text {
+	display: flex;
+	justify-content: center;
+}
+
+.contents-text p {
+	font-size: 12px;
+	color: #333;
+	width: 400px;
+	margin-right: 90px;
+}
+
+.contents-text a {
+	color: #fff;
+	padding: 14px 20px;
+	background-color: #74cfae;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.contents-text a:hover {
+	color: #333;
+}
+
+/*---- skills --------------------------------------------*/
+.skills-wrapper {
+	background-color: #4e4e4e;
+	padding: 70px 0 100px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.skills-wrapper h3 {
+	color: #fff;
+}
+
+.skills {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.skill {
+	margin-left: 180px;
+}
+
+.skill:first-child {
+	margin-left: 0;
+}
+
+.skill p {
+	color: #fff;
+	font-size: 16px;
+	margin-top: 10px;
+}
+
+/*--- sns ----------------------------------------*/
+.sns-wrapper {
+	width: 100%;
+	background-color: #f2f2f2;
+	padding: 200px 0 200px 0;
+	text-align: center;
+	display: table;
+}
+
+.sns-wrapper i {
+	color: #74cfae;
+	width: 185px;
+	height: 70px;
+	display: table-cell;
+	vertical-align: middle;
+	transition: all 0.3s ease;
+}
+
+.sns-wrapper a {
+	text-decoration: none;
+}
+
+.sns-wrapper i:hover {
+	cursor: pointer;
+	background-color: #fff;
+}
+
+/*--- footer ----------------------------------------*/
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: #74cfae;
+	color: #fff;
+	padding:20px 0 25px 0;
+	text-align: right;
+}
+
+/*--- タブレット　----------------------------------------*/
+@media only screen and (max-width:768px) and (max-width:1199px ) {
+	.inner {
+		width: 97%;
+	}
+
+	.intro-wrapper {
+		padding: 50px 0 35px 0;
+	}
+
+	.intro-container {
+		display: block;
+	}
+
+	.iphone-wrapper {
+		margin-bottom: 20px;
+		text-align: center;
+		width: auto;
+	}
+
+	.text-wrapper {
+		padding: 0 20px;
+	}
+
+	.text-wrapper p {
+		font-size: 15px;
+	}
+}
+
+/*---- スマホ ------------------------------------------*/
+
+@media screen and (max-width:767px) {
+	.inner {
+		width: 97%;
+	}
+
+}
+
+
+
+
+
+
