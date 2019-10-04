@@ -260,6 +260,7 @@ img {
 		width: 97%;
 	}
 
+/*--- iphone ----------------------------------*/
 	.intro-wrapper {
 		padding: 50px 0 35px 0;
 	}
@@ -282,6 +283,7 @@ img {
 		font-size: 15px;
 	}
 
+/*--- main-contents ---------------------------------------*/
 	.contents-images {
 		display: block;
 		margin: 0 auto;
@@ -308,6 +310,8 @@ img {
 
 	}
 
+	/*----- skills ------------------------------------*/
+
 	.skills {
 		display: block;
 	}
@@ -320,6 +324,7 @@ img {
 		margin-bottom: 88px;
 	}
 
+/*---- sns --------------------------------------------------*/
 	.sns-wrapper-btn {
 		width: 130px;
 	}
@@ -332,8 +337,71 @@ img {
 		width: 97%;
 	}
 
-	.
+/*---- header -------------------------------------------------*/
+	.contact-btn {
+		display: none;
+	}
 
+	.humberger {
+		position: relative;
+		height: 34px;
+		width: 38px;
+		display: inline-block;
+		box-sizing: border-box;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		padding: 10px;
+	}
+
+	.humberger-line {
+		position: absolute;
+		left: 9px;
+		height: 2px;
+		width: 18px;
+		background-color: #c0c0c0;
+		display: inline-block;
+		box-sizing: border-box;
+	}
+
+	.humberger-line:nth-of-type(1) {
+		top: 9px;
+	}
+
+	.humberger-line:nth-of-type(2) {
+		top: 15px;
+	}
+
+	.humberger-line:nth-of-type(3) {
+		bottom: 9px;
+	}
+
+/*---- theme -----------------------------------------------*/
+	.theme-wrapper {
+		padding: 160px 0 130px;
+	}
+
+	.theme-title {
+		font-size: 80px;
+	}
+
+	.theme-text {
+		font-size: 30px;
+	}
+
+/*--- iphone ---------------------------------------------------------*/
+
+	.text-wrapper {
+		width: auto;
+	}
+
+/*--- sns -----------------------------------------------------*/
+	.sns-wrapper {
+		padding: 50px 0;
+	}
+
+	.sns-wrapper-btn {
+		width: 200px;
+	}
 }
 
 
