@@ -155,14 +155,6 @@ img {
 }
 
 
-.contents-img:nth-child(3n+1) {
-	margin-left: 0;
-}
-
-.contents-img:nth-last-child(-n+3) {
-	margin-top: 80px;
-}
-
 .contents-text-box {
 	display: flex;
 	justify-content: center;
@@ -242,7 +234,6 @@ img {
 }
 
 /*--- footer ----------------------------------------*/
-
 .footer {
 	bottom: 0;
 	left: 0;
@@ -251,6 +242,16 @@ img {
 	color: #fff;
 	padding:20px 0 25px 0;
 	text-align: right;
+}
+/* -- PCのみに適用 ---------------------------------------------*/
+@media screen and (min-width:1200px) {
+	.contents-img:nth-child(3n+1) {
+	margin-left: 0;
+	}
+
+	.contents-img:nth-child(n+4) {
+	margin-top: 80px;
+	}
 }
 
 /*--- タブレット　----------------------------------------*/
@@ -280,6 +281,48 @@ img {
 	.text-wrapper p {
 		font-size: 15px;
 	}
+
+	.contents-images {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.contents-img {
+		margin-left: 0;
+		display: block;
+	}
+
+	.contents-img:nth-child(3n) {
+		margin-bottom: 80px;
+	}
+
+	.contents-text-box {
+		display: block;
+		text-align: center;
+	}
+
+	.contents-text {
+		width: auto;
+		margin-right: 0;
+		margin-bottom: 40px;
+
+	}
+
+	.skills {
+		display: block;
+	}
+
+	.skill {
+		margin-left: 0;
+	}
+
+	.programming-language {
+		margin-bottom: 88px;
+	}
+
+	.sns-wrapper-btn {
+		width: 130px;
+	}
 }
 
 /*---- スマホ ------------------------------------------*/
@@ -288,6 +331,8 @@ img {
 	.inner {
 		width: 97%;
 	}
+
+	.
 
 }
 
