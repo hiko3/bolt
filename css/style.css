@@ -274,7 +274,6 @@ img {
 	}
 
 	.text-wrapper {
-		padding: 0 20px;
 		width: 100%;
 	}
 
@@ -324,6 +323,10 @@ img {
 		margin-left: 0;
 		margin-bottom: 88px;
 	}
+
+	.skill:last-child {
+		margin-bottom: 0;
+	}
 }
 /*---- sns ----------------------------------------------------*/
 	.sns-container {
@@ -340,10 +343,7 @@ img {
 	}
 
 	.humberger {
-		position: relative;
-		height: 34px;
 		width: 38px;
-		display: inline-block;
 		box-sizing: border-box;
 		border: 1px solid #ddd;
 		border-radius: 4px;
@@ -352,26 +352,15 @@ img {
 	}
 
 	.humberger-line {
-		position: absolute;
-		left: 9px;
 		height: 2px;
-		width: 18px;
 		background-color: #c0c0c0;
-		display: inline-block;
-		box-sizing: border-box;
+		margin-top: 4px;
 	}
 
-	.humberger-line:nth-of-type(1) {
-		top: 9px;
+	.humberger-line:first-child {
+		margin-top: 0;
 	}
 
-	.humberger-line:nth-of-type(2) {
-		top: 15px;
-	}
-
-	.humberger-line:nth-of-type(3) {
-		bottom: 9px;
-	}
 
 /*---- theme -----------------------------------------------*/
 	.theme-wrapper {
@@ -416,7 +405,7 @@ img {
 	}
 
 	.programming-language {
-		margin-bottom: 88px;
+		
 	}
 /*--- sns -----------------------------------------------------*/
 	.sns-wrapper {
